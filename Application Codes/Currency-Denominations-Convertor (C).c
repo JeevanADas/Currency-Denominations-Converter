@@ -136,7 +136,7 @@ void findMinU(int cost)
 void convD2R(int amt)
 {
     int test;
-    int cost=amt*72.36;
+    int cost=amt*72.83;
     int coinList[MAX] = { 0 };
     int i, k = 0;
     printf("The number of units of Rupee denominations needed to make $%d are as follows:\n",amt);
@@ -167,10 +167,10 @@ void convD2R(int amt)
 void convE2R(int amt)
 {
     int test;
-    int cost=amt*86.43;
+    int cost=amt*88.53;
     int coinList[MAX] = { 0 };
     int i, k = 0;
-    printf("The number of units of Rupee denominations needed to make €%d are as follows:\n",amt);
+    printf("The number of units of Rupee denominations needed to make â‚¬%d are as follows:\n",amt);
     for (i = RCOINS - 1; i >= 0; i--)
     {
         int a=0;
@@ -198,7 +198,7 @@ void convE2R(int amt)
 void convU2R(int amt)
 {
     int test;
-    int cost=amt*19.70;
+    int cost=amt*19.83;
     int coinList[MAX] = { 0 };
     int i, k = 0;
     printf("The number of units of Rupee denominations needed to make AED %d are as follows:\n",amt);
